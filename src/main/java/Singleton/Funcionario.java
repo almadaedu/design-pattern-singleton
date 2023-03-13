@@ -8,26 +8,26 @@ public class Funcionario {
         return instance;
     }
 
-    private String nomeFuncionario;
-    private String cargoFuncionario;
+    private String nome;
+    private String cargo;
 
     public String getNomeFuncionario() {
-        return nomeFuncionario;
+        return nome;
     }
 
     public void setNomeFuncionario(String nomeFuncionario) {
-        this.nomeFuncionario = nomeFuncionario;
+        this.nome = nomeFuncionario;
     }
 
     public String getCargoFuncionario() {
-        return cargoFuncionario;
+        return cargo;
     }
 
     public void setCargoFuncionario(String cargoFuncionario) {
-        this.cargoFuncionario = cargoFuncionario;
+        this.cargo = cargoFuncionario;
     }
 
     public String mostrarCargoFuncionario() {
-        return "O cargo deste funcionário é " + this.cargoFuncionario;
+        return "O cargo deste funcionário é " + this.cargo;
     }
 }
